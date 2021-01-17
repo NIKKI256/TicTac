@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAK-TOE</title>
+    <link rel="stylesheet" href="./assets/playerVsPlayer.css">
+    <link rel="stylesheet" href="./assets/canvas.css">
+</head>
+<body>
+    <div class="content">
+        <canvas id="canvas">
+            Sorry, <strong>CANVAS</strong> is not supported by your browser. Get a more recent one to play my game!
+        </canvas>
+        <div class="currentPlayer">
+            <span>
+                <span>Сейчас ходит: <span id="curPlyr">X</span></span>
+            </span>
+        </div>
+        <div id="area"></div>
+        <div class="stat">
+            <table>
+                <th colspan="2">Статистика матчей:</th>
+                <tr>
+                    <td>X</td>
+                    <td><span id = "sX">0</span></td>
+                </tr>
+                <tr>
+                    <td>O</td>
+                    <td><span id = "sO">0</span></td>
+                </tr>
+                <tr>
+                    <td>Ничьи</td>
+                    <td><span id = "sD">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./js/playerVsplayer.js"></script>
+    <script src="./js/canvas.js"></script>
+</body>
+</html>
